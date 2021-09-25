@@ -22,7 +22,7 @@ const Persons = (props) => {
       </div>
       <div class="card-footer bg-white border-0">
         <button 
-        onClick={ ()=> props.handleAddtoCart(props.persons)}
+        onClick={ ()=> props.handleAddtoCart(props.person)}
         className=
         "btn btn-success"
         >{element} Add to cart</button>
