@@ -1,0 +1,12 @@
+.img-container{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.card-container{
+    background: #f5f4f4;
+}
+.btn-custom{
+    background-color: #fca311;
+    color: white;
+}

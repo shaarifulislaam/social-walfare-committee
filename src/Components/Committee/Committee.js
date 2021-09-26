@@ -16,9 +16,9 @@ const Committee = () => {
        setPersonsHandle(newPersons);
    }
     return (
-        <div className="row">
-           <div className="col-md-9 border border-end-1 border-top-0  border-start-0  border-bottom-0">
-               <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row mt-4">
+           <div className="col-md-9  border border-end-1 border-top-0  border-start-0  border-bottom-0">
+               <div className="row container row-cols-1 row-cols-md-3 g-4">
              {persons.map(person => <Persons
                     key={person.id}
                     person={person}
@@ -26,7 +26,7 @@ const Committee = () => {
              </Persons>)}
                </div>
            </div>
-           <div className="col-md-3">
+           <div className="col-md-3 container">
                
               <Cart
                 personsHandle={personsHandle}
