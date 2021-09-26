@@ -32,7 +32,7 @@ const Header = () => {
     </div>
   </div>
 </nav>
-<h1 className="bg-light-custom p-2 text-center">Total Budget: 100 Million</h1>
+<h1 className="bg-light-custom p-2 text-center">Total Budget: $100 Million</h1>
      </div>
     );
 };
