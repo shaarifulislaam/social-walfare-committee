@@ -33,12 +33,12 @@ const Persons = (props) => {
           </p>
           <div className="d-flex justify-content-evenly">
             <h2>
-              <a href="">
+              <a href="https://www.facebook.com/" target="_blank"  rel="noreferrer">
                 <i class="fab fa-facebook"></i>
               </a>
             </h2>
             <h2>
-              <a href="">
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                 <i class="fab fa-twitter"></i>
               </a>
             </h2>
@@ -46,7 +46,7 @@ const Persons = (props) => {
         </div>
         <div class="card-footer bg-white border-0 text-center">
           <button
-            onClick={() => props.handleAddtoCart(props.person)}
+            onClick={() => props.handleAddtoPerson(props.person)}
             className="btn btn-custom w-100"
           >
             <i class="fas fa-user-plus"></i> Add Person
