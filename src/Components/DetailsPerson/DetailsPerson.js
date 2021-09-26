@@ -9,7 +9,7 @@ const DetailsPerson = (props) => {
       <img src={img} class="img-fluid rounded-circle " alt="..." />
     </div>
     <div class="col-md-9">
-      <div class="card-body">
+      <div class=" card-body">
         <p class="card-title"><small><b>Name : {name}</b></small></p>
         <p class="card-text"><small><b>Role: {role}</b></small></p>
       </div>
