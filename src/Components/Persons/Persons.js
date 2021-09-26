@@ -1,11 +1,9 @@
+
 import "./Persons.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Persons = (props) => {
-  // console.log(props.person);
+ 
   const { name, role, age, country, img, salary, phone } = props.person;
-  const element = <FontAwesomeIcon icon={faShoppingCart} />;
   return (
     <div className="col ">
       <div class="card h-100  rounded-3 shadow">
@@ -51,7 +49,7 @@ const Persons = (props) => {
             onClick={() => props.handleAddtoCart(props.person)}
             className="btn btn-custom w-100"
           >
-            {element} Add Person
+            <i class="fas fa-user-plus"></i> Add Person
           </button>
         </div>
       </div>
