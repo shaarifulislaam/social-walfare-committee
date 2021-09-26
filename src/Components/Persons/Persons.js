@@ -11,8 +11,10 @@ const Persons = (props) => {
        
   <div class="col">
     <div class="card h-100">
-      <img src={img} class="card-img-top" alt="..."/>
-      <div class="card-body">
+     <div class="text-center p-5">
+     <img src={img} class="card-img-top rounded-circle" height="200px" width="200px" alt="..."/>
+     </div>
+      <div class="card-body text-center">
         <h5 class="card-title"><small><b>Name:</b>{name}</small></h5>
         <p class="card-text"><b>Role:</b>{role}</p>
         <p class="card-text"><b>Age:</b>{age}</p>

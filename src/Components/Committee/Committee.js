@@ -13,7 +13,6 @@ const Committee = () => {
     },[]);
    const handleAddtoCart = person => {
        const newPersons = [...personsHandle, person];
-       console.log(newPersons)
        setPersonsHandle(newPersons);
    }
     return (
@@ -28,8 +27,10 @@ const Committee = () => {
                </div>
            </div>
            <div className="col-md-3">
+               
               <Cart
-                personsHandle={personsHandle}>
+                personsHandle={personsHandle}
+                >
                 </Cart>
            </div>
         </div>
